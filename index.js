@@ -40,8 +40,8 @@ const users = [
   ];
 
   function firstNamePrinter(collection) {
-    for (const user of collection) {
-      console.log(user.firstName);
+    for (const users of collection) {
+      console.log(users.firstName);
     }
   }
 
